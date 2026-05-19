@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+   "engines": {
+    "node": "20.x"
+  },
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -29,4 +33,6 @@
     "vite": "7.3.2",
     "vite-plugin-singlefile": "2.3.0"
   }
+
+ 
 }
